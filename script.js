@@ -8,9 +8,9 @@ function vichislenie() {
   if (knopka.innerHTML === "Вычислить") {
     ravno.innerHTML = "Результат:"
     resultat.innerHTML = result
-    knopka.innerHTML = "Вернуть"
+    knopka.innerHTML = "Сбросить"
   }
-  else if (knopka.innerHTML === "Вернуть") {
+  else if (knopka.innerHTML === "Сбросить") {
     ravno.innerHTML = ""
     resultat.innerHTML = ""
     document.getElementbyId("first").reset()
