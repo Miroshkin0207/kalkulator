@@ -13,8 +13,8 @@ function vichislenie() {
     else if (knopka.innerHTML === "Сбросить") {
       ravno.innerHTML = ""
       resultat.innerHTML = ""
-      document.getElementById("first").reset()
-      document.getElementById("second").reset()
+      document.getElementById("first").value=""
+      document.getElementById("second").value=""
       knopka.innerHTML = "Вычислить"    
     }
   }
