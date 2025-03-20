@@ -11,7 +11,8 @@ function vichislenie() {
     knopka.innerHTML = "Вернуть"
   }
   else if (knopka.innerHTML === "Вернуть") {
-    document.getElementByTagName("input").innerHTML = ""
+    document.getElementById("first").innerHTML = ""
+    document.getElementById("second").innerHTML = ""
     ravno.innerHTML = ""
     resultat.innerHTML = ""
     knopka.innerHTML = "Вычислить"
