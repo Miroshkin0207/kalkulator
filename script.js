@@ -1,5 +1,5 @@
 function vichislenie() {
-  knopka = document.getElementById("vichislit")
+  let knopka = document.getElementById("vichislit")
   let first = Number(document.getElementById("first").value)
   let second = Number(document.getElementById("second").value)
   let result = Number(first + second)
