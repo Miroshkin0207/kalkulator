@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Калькулятор</title>
+</head>
+<body>
+<div>
+<a class="ssilki" href="https://miroshkin0207.github.io/miroshkin/">Главная</a>
+<h1>Калькулятор</h1>
+<select id="deist" onChange="znak()">
+<option selected disabled>Действие</option>
+<option>Сложение</option>
+<option>Вычитание</option>
+<option>Умножение</option>
+<option>Деление</option>
+<option>Возведение в степень</option>
+<option>Извлечение арифметического квадратного корня</option>
+</select>
+<br>
+<br>
+<input type="number" id="first" class="chisla" placeholder="Первое число">
+<p id="znak"></p>
+<input type="number" id="second" class="chisla" placeholder="Второе число">
+<p id="ravno"></p>
+<h5 id="result"></h5>
+<button id="vichislit" style="font-size: 20px" onclick="vichislenie()">Вычислить</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
