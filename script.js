@@ -22,7 +22,7 @@ function vichislenie() {
     result = first ** second
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
-    document.getElementById("second").remove()
+    document.getElementById("second").visibility = "hidden"
     result = Math.sqrt(first)
   }
   if (knopka.innerHTML === "Вычислить") {
