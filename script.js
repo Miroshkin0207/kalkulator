@@ -5,7 +5,7 @@ function vichislenie() {
   let deist = document.getElementById("deist").value
   let ravno = document.getElementById("ravno")
   let resultat = document.getElementById("result")
-  let result = Number(first)
+  let result = first + second
   if (deist==="Сложение") {
     result = first + second
   }
