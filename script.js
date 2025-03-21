@@ -7,7 +7,7 @@ function vichislenie() {
   let resultat = document.getElementById("result")
   let result = first + second
   if (deist==="Сложение") {
-    result = first + second
+    result = 0
   }
   else if (deist === "Вычитание") {
     result = first - second
