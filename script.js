@@ -22,7 +22,6 @@ function vichislenie() {
     result = first ** second
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
-    document.getElementById("second").visibility = "hidden"
     result = Math.sqrt(first)
   }
   if (knopka.innerHTML === "Вычислить") {
@@ -59,6 +58,7 @@ function znak() {
     znak.innerHTML = "^"
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
+    document.getElementById("second").visibility = "hidden"
     skrznak.innerHTML = "√"
   }
   else {
