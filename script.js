@@ -58,7 +58,7 @@ function znak() {
     znak.innerHTML = "^"
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
-    document.getElementById("second").visibility = "hidden"
+    document.getElementById("second").hidden = true
     skrznak.innerHTML = "√"
   }
   else {
