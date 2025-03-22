@@ -26,6 +26,9 @@ function vichislenie() {
     result = Math.sqrt(first)
     document.getElementById("second").hidden = true
   }
+  else {
+    ravno.innerHTML = "Выберите действие"
+  }
   if (knopka.innerHTML === "Вычислить") {
     ravno.innerHTML = "Результат:"
     resultat.innerHTML = result
