@@ -37,6 +37,7 @@ function vichislenie() {
     document.getElementById("first").value=""
     document.getElementById("second").value=""
     skrznak.innerHTML = ""
+    second.hidden = false
     knopka.innerHTML = "Вычислить"    
   }
 }
