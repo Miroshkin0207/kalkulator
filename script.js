@@ -6,6 +6,7 @@ function vichislenie() {
   let ravno = document.getElementById("ravno")
   let resultat = document.getElementById("result")
   let result = 0
+  let skrznak = document.getElementById("skrznak")
   if (deist==="Сложение") {
     result = first + second
   }
@@ -35,6 +36,7 @@ function vichislenie() {
     resultat.innerHTML = ""
     document.getElementById("first").value=""
     document.getElementById("second").value=""
+    skrznak.innerHTML = ""
     knopka.innerHTML = "Вычислить"    
   }
 }
