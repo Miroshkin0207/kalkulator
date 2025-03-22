@@ -23,20 +23,19 @@ function vichislenie() {
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
     result = Math.sqrt(first)
+    document.getElementById("second").hidden = true
   }
   if (knopka.innerHTML === "Вычислить") {
     ravno.innerHTML = "Результат:"
     resultat.innerHTML = result
     knopka.innerHTML = "Сбросить"
-    document.getElementById("skrznak").hidden = true
   }
   else if (knopka.innerHTML === "Сбросить") {
     ravno.innerHTML = ""
     resultat.innerHTML = ""
     document.getElementById("first").value=""
     document.getElementById("second").value=""
-    knopka.innerHTML = "Вычислить"
-    document.getElementById("skrznak").hidden = true    
+    knopka.innerHTML = "Вычислить"    
   }
 }
 function znak() {
@@ -60,7 +59,7 @@ function znak() {
     znak.innerHTML = "^"
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
-    document.getElementById("second").hidden = false
+    document.getElementById("second").hidden = true
     skrznak.innerHTML = "√"
   }
   else {
