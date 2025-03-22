@@ -29,6 +29,7 @@ function vichislenie() {
   if (knopka.innerHTML === "Вычислить") {
     ravno.innerHTML = "Результат:"
     resultat.innerHTML = result
+    second.hidden = false
     knopka.innerHTML = "Сбросить"
   }
   else if (knopka.innerHTML === "Сбросить") {
