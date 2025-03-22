@@ -24,7 +24,6 @@ function vichislenie() {
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
     result = Math.sqrt(first)
-    document.getElementById("second").hidden = true
   }
   else {
     ravno.innerHTML = "Выберите действие"
