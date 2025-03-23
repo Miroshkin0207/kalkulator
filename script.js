@@ -6,7 +6,6 @@ function vichislenie() {
   let ravno = document.getElementById("ravno")
   let resultat = document.getElementById("result")
   let result = 0
-  let skrznak = document.getElementById("skrznak")
   if (deist==="Сложение") {
     result = first + second
   }
@@ -38,9 +37,6 @@ function vichislenie() {
     resultat.innerHTML = ""
     document.getElementById("first").value=""
     document.getElementById("second").value=""
-    skrznak.innerHTML = ""
-    first.hidden = false
-    first.setAttribute("placeholder", "Второе число")
     knopka.innerHTML = "Вычислить"    
   }
 }
@@ -48,28 +44,34 @@ function znak() {
   let znak = document.getElementById("znak")
   let deist = document.getElementById("deist").value
   let ravno = document.getElementById("ravno")
-  let skrznak = document.getElementById("skrznak")
   if (deist==="Сложение") {
-    znak.innerHTML = "+"
+  znak.innerHTML = "+"
+    document.getElementById("first").hidden = false
+document.getElementById("second").setAttribute("placeholder", "Второе число")
   }
   else if (deist==="Вычитание") {
-    znak.innerHTML = "-"
+  znak.innerHTML = "-"
+    document.getElementById("first").hidden = false
+document.getElementById("second").setAttribute("placeholder", "Второе число")
   }
   else if (deist==="Умножение") {
-    znak.innerHTML = "×"
+  znak.innerHTML = "×"
+    document.getElementById("first").hidden = false
+document.getElementById("second").setAttribute("placeholder", "Второе число")
   }
   else if (deist==="Деление") {
-    znak.innerHTML = "÷"
+  znak.innerHTML = "÷"
+    document.getElementById("first").hidden = false
+document.getElementById("second").setAttribute("placeholder", "Второе число")
   }
   else if (deist==="Возведение в степень") {
     znak.innerHTML = "^"
+    document.getElementById("first").hidden = false
+document.getElementById("second").setAttribute("placeholder", "Второе число")
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
     document.getElementById("first").hidden = true
-    skrznak.innerHTML = "√"
-    second.setAttribute("placeholder", "Подкоренное выражение")
-  }
-  else {
-    ravno.innerHTML = "Выберите действие"
+    znak.innerHTML = "√"
+    document.getElementById("second").setAttribute("placeholder", "Подкоренное выражение")
   }
 }
