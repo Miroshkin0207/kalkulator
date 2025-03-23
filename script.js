@@ -24,7 +24,7 @@ function vichislenie() {
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
     result = Math.sqrt(second)
-    second.setAtribute("placeholder") = "Подкоренное выражение"
+    second.setAttribute("placeholder", "Подкоренное выражение")
   }
   else {
     ravno.innerHTML = "Выберите действие"
