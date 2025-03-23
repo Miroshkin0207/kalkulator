@@ -23,7 +23,8 @@ function vichislenie() {
     result = first ** second
   }
   else if (deist=== "Извлечение арифметического квадратного корня") {
-    result = Math.sqrt(first)
+    result = Math.sqrt(second)
+    second.setAtribute("placeholder") = "Подкоренное выражение"
   }
   else {
     ravno.innerHTML = "Выберите действие"
@@ -31,7 +32,6 @@ function vichislenie() {
   if (knopka.innerHTML === "Вычислить") {
     ravno.innerHTML = "Результат:"
     resultat.innerHTML = result
-    document.getElementById("second").hidden = false
     knopka.innerHTML = "Сбросить"
   }
   else if (knopka.innerHTML === "Сбросить") {
@@ -40,7 +40,7 @@ function vichislenie() {
     document.getElementById("first").value=""
     document.getElementById("second").value=""
     skrznak.innerHTML = ""
-    document.getElementById("second").hidden = false
+    first.hidden = false
     knopka.innerHTML = "Вычислить"    
   }
 }
@@ -65,7 +65,7 @@ function znak() {
     znak.innerHTML = "^"
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
-    document.getElementById("second").hidden = true
+    document.getElementById("first").hidden = true
     skrznak.innerHTML = "√"
   }
   else {
