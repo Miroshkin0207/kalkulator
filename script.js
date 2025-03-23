@@ -41,33 +41,40 @@ function vichislenie() {
   }
 }
 function znak() {
+  let one = document.getElementById("first")
+  let two = document.getElementById("second")
   let znak = document.getElementById("znak")
   let deist = document.getElementById("deist").value
   let ravno = document.getElementById("ravno")
   if (deist==="Сложение") {
-  znak.innerHTML = "+"
-    document.getElementById("first").hidden = false
-document.getElementById("second").setAttribute("placeholder", "Второе число")
+    znak.innerHTML = "+"
+    one.hidden = false
+    one.setAttribute("placeholder", "Первое слагаемое")
+    two.setAttribute("placeholder", "Второе слагаемое")
   }
   else if (deist==="Вычитание") {
-  znak.innerHTML = "-"
-    document.getElementById("first").hidden = false
-document.getElementById("second").setAttribute("placeholder", "Второе число")
+    znak.innerHTML = "-"
+    one.hidden = false
+    one.setAttribute("placeholder", "Уменьшаемое")
+    second.setAttribute("placeholder", "Вычитаемое")
   }
   else if (deist==="Умножение") {
-  znak.innerHTML = "×"
-    document.getElementById("first").hidden = false
-document.getElementById("second").setAttribute("placeholder", "Второе число")
+    znak.innerHTML = "×"
+    one.hidden = false
+    one.setAttribute("placeholder", "Первый множитель")
+    second.setAttribute("placeholder", "Второй множитель")
   }
   else if (deist==="Деление") {
-  znak.innerHTML = "÷"
-    document.getElementById("first").hidden = false
-document.getElementById("second").setAttribute("placeholder", "Второе число")
+    znak.innerHTML = "÷"
+    one.hidden = false
+    one.setAttribute("placeholder", "Делимое")
+    second.setAttribute("placeholder", "Делитель")
   }
   else if (deist==="Возведение в степень") {
     znak.innerHTML = "^"
-    document.getElementById("first").hidden = false
-document.getElementById("second").setAttribute("placeholder", "Второе число")
+    one.hidden = false
+    one.setAttribute("placeholder", "Основание степени")
+    two.setAttribute("placeholder", "Показатель степени")
   }
   else if (deist==="Извлечение арифметического квадратного корня") {
     document.getElementById("first").hidden = true
