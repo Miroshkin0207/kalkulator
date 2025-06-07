@@ -37,7 +37,8 @@ color: rgb(19, 66, 142)
     font-size: px
   }
   #text {
-    font-size: px
+    font-size: px;
+    color: white
   }
 }
 @media (min-width: 1px) {
@@ -60,6 +61,7 @@ color: rgb(19, 66, 142)
     height: 50px
   }
   #text {
-    font-size: 35px
+    font-size: 35px;
+    color: white
   }
 }
