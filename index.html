@@ -6,8 +6,8 @@
 </head>
 <body>
 <div>
-<button onclick="glav()">Главная</button>
-<h1>Калькулятор</h1>
+<button id="back" onclick="glav()">Главная</button>
+<h1 id="title">Калькулятор</h1>
 <select id="deist" onChange="znak()">
 <option selected disabled>Действие</option>
 <option>Сложение</option>
@@ -24,7 +24,7 @@
 <input type="number" id="second" class="chisla" placeholder="Второе число">
 <p id="ravno"></p>
 <h5 id="result"></h5>
-<button id="vichislit" style="font-size: 20px" onclick="vichislenie()">Вычислить</button>
+<button id="vichislit" onclick="vichislenie()">Вычислить</button>
 </div>
 <script src="script.js"></script>
 </body>
