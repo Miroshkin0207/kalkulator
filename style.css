@@ -2,30 +2,52 @@ body {
 background-color: rgb(26, 26, 29)
 }
 div {
-color: white;
-font-size: 20px
-}
-.ssilki {
-color: rgb(36, 87, 189);
-font-size: 20px
-}
-#first {
-background-color: white;
-height: 20px;
-width: 200px
-}
-#second {
-background-color: white;
-height: 20px;
-width: 200px
-}
-#deist {
-background-color: white;
-height: 30px;
-width: 150px
+color: white
 }
 button {
 background-color: black;
-color: rgb(19, 66, 142);
-font-size: 20px
+color: rgb(19, 66, 142)
+}
+@media (min-width: 1200px) {
+  #back {
+    font-size: 40px
+  }
+  #deist {
+    width: px;
+    height: px
+  }
+  #first {
+    width: px;
+    height: px;
+    font-size: px
+
+  }
+  #second {
+    width: px;
+    height: px;
+    font-size: px
+  }
+  #text {
+    font-size: px
+  }
+}
+@media (min-width: 1px) {
+  #back {
+    font-size: 50px
+  }
+  #deist {
+    width: 250px;
+    height: 50px
+  }
+  #first {
+    width: 250px;
+    height: 50px
+  }
+  #second {
+    width: 250px;
+    height: 50px
+  }
+  #text {
+    font-size: 35px
+  }
 }
