@@ -5,6 +5,10 @@ button {
 background-color: black;
 color: rgb(19, 66, 142)
 }
+#title {
+  text-align: center;
+  color: white
+}
 .chisla {
   background-color: white
 }
@@ -15,7 +19,6 @@ color: rgb(19, 66, 142)
     font-size: 50px
   }
   #title {
-    text-align: center;
     font-size: 45px
   }
   #deist {
@@ -42,7 +45,6 @@ color: rgb(19, 66, 142)
     font-size: 50px
   }
   #title {
-    text-align: center;
     font-size: 50px
   }
   #deist {
