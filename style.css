@@ -1,9 +1,6 @@
 body {
 background-color: rgb(26, 26, 29)
 }
-div {
-color: white
-}
 button {
 background-color: black;
 color: rgb(19, 66, 142)
@@ -11,9 +8,15 @@ color: rgb(19, 66, 142)
 .chisla {
   background-color: white
 }
+
 @media (min-width: 1200px) {
+
   #back {
-    font-size: 40px
+    font-size: 50px
+  }
+  #title {
+    text-align: center;
+    font-size: 45px
   }
   #deist {
     width: px;
@@ -36,6 +39,10 @@ color: rgb(19, 66, 142)
 }
 @media (min-width: 1px) {
   #back {
+    font-size: 50px
+  }
+  #title {
+    text-align: center;
     font-size: 50px
   }
   #deist {
