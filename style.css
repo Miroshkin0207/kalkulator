@@ -8,6 +8,9 @@ button {
 background-color: black;
 color: rgb(19, 66, 142)
 }
+.chisla {
+  background-color: white
+}
 @media (min-width: 1200px) {
   #back {
     font-size: 40px
