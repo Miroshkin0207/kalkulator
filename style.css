@@ -6,8 +6,12 @@ button {
   background-color: black;
   color: rgb(19, 66, 142)
 }
+#back {
+  font-size: 60px
+}
 #title {
   text-align: center;
+  font-size: 50px
 }
 .chisla {
   background-color: white
@@ -16,10 +20,6 @@ button {
   background-color: white
 }
 @media (min-width: 1200px) {
-
-  #back {
-    font-size: 20px
-  }
   #title {
     font-size: 45px
   }
@@ -38,15 +38,13 @@ button {
   body {
     font-size: 35px
   }
-  #back {
-    font-size: 50px
-  }
   #title {
-    font-size: 50px
+    font-size: 65px
   }
   #deist {
     width: 250px;
-    height: 50px
+    height: 50px;
+    margin: 0 auto 0 auto
   }
   #first {
     width: 250px;
